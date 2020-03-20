@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/gender"
+        android:layout_gravity="center"
+        android:layout_width="20dp"
+        android:layout_height="20dp"></ImageView>
+    <TextView
+        android:id="@+id/tvmanv"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:text="ma NV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <TextView
+        android:id="@+id/tvtennv"
+        android:layout_marginStart="10dp"
+        android:layout_weight="8"
+        android:layout_gravity="center"
+        android:text="Ten nv"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+</LinearLayout>
